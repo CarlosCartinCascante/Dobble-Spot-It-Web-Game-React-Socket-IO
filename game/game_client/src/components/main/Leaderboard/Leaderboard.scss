@@ -1,0 +1,92 @@
+@import "../../../styles/config";
+
+body {
+  font-family: $font-site;
+}
+
+.top_leaders {
+  margin-top: 3em;
+  display: flex;
+  justify-content: center;
+}
+
+.cardPlayer {
+  text-align: center;
+  margin: 0 2em;
+}
+
+.cardPlayer:first-child {
+  margin-top: 5em;
+}
+
+.cardPlayer:nth-child(3) {
+  margin-top: 5em;
+}
+
+.card_content {
+  padding: 2em;
+  border: 1px solid $black-color;
+  box-shadow: -2px 3px 10px 8px rgba(183,162,189,0.75);
+}
+
+.player_crown {
+  height: 3em;
+  width: 3em;
+  filter: invert(81%) sepia(51%) saturate(3175%) hue-rotate(2deg) brightness(108%) contrast(111%);
+  margin-bottom: .5em;
+}
+
+.user_icon {
+  height: 5em;
+  width: 5em;
+  border: 1px solid $black-color;
+  border-radius: 50%;
+  padding: .3em;
+  margin-bottom: 1em;
+}
+
+table {
+  margin: 5em auto;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+th {
+  background-color: $nav-color;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+}
+
+.player_info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.player_name{
+  font-weight: 600;
+}
+
+.player_icon {
+  border: 1px solid $black-color;
+  height: 2.5em;
+  width: 2.5em;
+  margin-right: 2em;
+}
+
+.player_name {
+  margin: auto 0;
+}
+
+.player_number {
+  margin: auto 0;
+  height: 2em;
+  width: 2em;
+  display: inline-block;
+  border: 1px solid $black-color;
+  border-radius: 50%;
+  padding: .10em;
+}

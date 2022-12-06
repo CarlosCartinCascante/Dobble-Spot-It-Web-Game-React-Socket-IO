@@ -1,0 +1,16 @@
+@import "./styles/config";
+@import "./components/header/NavBar/Navbar.scss";
+@import "./components/main/Home/Home.scss";
+@import "./components/main/Home/Game/GameRoom/Game/Card/Card.scss";
+@import "./components/main/Home/Game/GameOver/GameOver.scss";
+@import "./components/main/Home/Game/WaitingRoom/Waiting.scss";
+@import "./components/main/Home/Game/PlayerForm/PlayerForm.scss";
+@import "./components/main/Home/Game/GameRoom/Game/Game.scss";
+@import "./components/main/Home/Game/GameRoom/Timer/Timer.scss";
+@import "./components/main/AboutUs/About.scss";
+@import "./components/main/Home/Game/CreateRoom/CreateRoom.scss";
+@import "./components/main/Home/Game/JoinRoom/JoinRoom.scss";
+
+* {
+    font-family: $font-site;
+  }

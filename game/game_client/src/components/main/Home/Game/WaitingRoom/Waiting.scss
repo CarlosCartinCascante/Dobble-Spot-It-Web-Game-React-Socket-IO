@@ -1,0 +1,92 @@
+html {
+  box-sizing: border-box;
+}
+
+.waiting_container{
+  background-color: $nav-color;
+  height: 100vh;
+}
+
+.icons{
+  padding: 30px;
+}
+
+.icon {
+  width: 5rem;
+}
+
+.logo {
+  width: 50%;
+  margin: 8px;
+}
+
+.waitingHeader {
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.playersLabel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  #label1 {
+    border: 0.5px;
+    border-radius: 5rem;
+    border-style: groove;
+    border-color: rgb(197, 139, 233);
+    background-color: rgb(196, 133, 235);
+    border-width: 7px;
+    font-size: 25px;
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+}
+
+.iconos {
+  display: flex;
+  height: 150px;
+  width: 150px;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: var(--primario);
+  border-radius: 50%;
+}
+
+.temporizador {
+  padding-top: 1rem;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.contenedor_boton {
+  display: flex;
+  justify-content: center;
+}
+
+.refreshButton{
+  border-radius: 20px;
+  border-color: rgb(197, 139, 233);
+  background-color: white;
+  text-align: center;
+  padding: 10px;
+  font-weight: 500;
+  &:hover {
+    background-color: rgb(196, 133, 235);
+    color: white;
+  }
+}
+
+.room-code{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3em auto;
+}

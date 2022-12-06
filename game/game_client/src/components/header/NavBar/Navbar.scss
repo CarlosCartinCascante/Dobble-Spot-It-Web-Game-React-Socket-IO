@@ -1,0 +1,35 @@
+.navbar{
+    background-color: $nav-color;
+    width: 100%;
+    padding: 0;
+}
+
+.navbar-brand{
+    padding: 1.2rem 0;
+}
+
+.navbar-brand > img{
+    width: 6rem;
+    padding: 0;
+}
+
+.navbar-nav > li{
+    font-size: 1.5rem;
+    padding: 0 0.5rem;
+
+    &:hover{
+        font-size: 1.5rem;
+        padding: 0 0.5rem;
+    }
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: $black-color;
+    &:hover{
+        color: $black-color;
+    }
+}
+
+.navbar-light .navbar-nav .nav-link.active{
+    color: $purple-color;
+}
